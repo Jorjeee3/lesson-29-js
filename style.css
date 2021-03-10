@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+.header {
+    background-color: rgb(190, 38, 38);
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.header-nav {
+    width: 50%;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.item-link {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(212, 192, 9);
+    border-radius: 30px;
+}
+
+.active {
+    background-color: rgb(31, 91, 170);
+    color: rgb(191, 60, 196);
+}
